@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b1af075a643f2ad0f3a149ec65865e9",
+    "content-hash": "fa956ca8d67eca624155fe98940a9666",
     "packages": [
         {
             "name": "adoy/oauth2",
@@ -51,17 +51,17 @@
             "time": "2015-08-03T19:57:06+00:00"
         },
         {
-            "name": "nategood/httpful",
-            "version": "0.3.2",
+            "name": "themy3/httpful",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nategood/httpful.git",
-                "reference": "0cded3ea97ba905600de9ceb9ef13f3ab681587c"
+                "url": "https://github.com/TheMY3/httpful.git",
+                "reference": "9c8284063941481c8d11898e499ede111c063470"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nategood/httpful/zipball/0cded3ea97ba905600de9ceb9ef13f3ab681587c",
-                "reference": "0cded3ea97ba905600de9ceb9ef13f3ab681587c",
+                "url": "https://api.github.com/repos/TheMY3/httpful/zipball/9c8284063941481c8d11898e499ede111c063470",
+                "reference": "9c8284063941481c8d11898e499ede111c063470",
                 "shasum": ""
             },
             "require": {
@@ -83,13 +83,18 @@
             ],
             "authors": [
                 {
+                    "name": "Yaroslav Molchan",
+                    "email": "yaroslav@molchan.me",
+                    "homepage": "https://molchan.me"
+                },
+                {
                     "name": "Nate Good",
                     "email": "me@nategood.com",
                     "homepage": "http://nategood.com"
                 }
             ],
             "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
-            "homepage": "http://github.com/nategood/httpful",
+            "homepage": "http://github.com/themy3/httpful",
             "keywords": [
                 "api",
                 "curl",
@@ -99,10 +104,9 @@
                 "restful"
             ],
             "support": {
-                "issues": "https://github.com/nategood/httpful/issues",
-                "source": "https://github.com/nategood/httpful/tree/v0.3.2"
+                "source": "https://github.com/TheMY3/httpful/tree/v0.4.0"
             },
-            "time": "2020-01-25T01:13:13+00:00"
+            "time": "2022-11-14T06:58:54+00:00"
         }
     ],
     "packages-dev": [
