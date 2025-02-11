@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa956ca8d67eca624155fe98940a9666",
+    "content-hash": "c9abc223fdbb26b35eb981311dcf9681",
     "packages": [
         {
             "name": "adoy/oauth2",
@@ -51,25 +51,25 @@
             "time": "2015-08-03T19:57:06+00:00"
         },
         {
-            "name": "themy3/httpful",
-            "version": "0.4.0",
+            "name": "nategood/httpful",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/TheMY3/httpful.git",
-                "reference": "9c8284063941481c8d11898e499ede111c063470"
+                "url": "https://github.com/nategood/httpful.git",
+                "reference": "ea02c8aedef70b9a453ce97978d9d7c413972f15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TheMY3/httpful/zipball/9c8284063941481c8d11898e499ede111c063470",
-                "reference": "9c8284063941481c8d11898e499ede111c063470",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/ea02c8aedef70b9a453ce97978d9d7c413972f15",
+                "reference": "ea02c8aedef70b9a453ce97978d9d7c413972f15",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
-                "php": ">=7.2"
+                "php": ">=8.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "*"
+                "phpunit/phpunit": "^10.5"
             },
             "type": "library",
             "autoload": {
@@ -83,18 +83,13 @@
             ],
             "authors": [
                 {
-                    "name": "Yaroslav Molchan",
-                    "email": "yaroslav@molchan.me",
-                    "homepage": "https://molchan.me"
-                },
-                {
                     "name": "Nate Good",
                     "email": "me@nategood.com",
                     "homepage": "http://nategood.com"
                 }
             ],
             "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
-            "homepage": "http://github.com/themy3/httpful",
+            "homepage": "http://github.com/nategood/httpful",
             "keywords": [
                 "api",
                 "curl",
@@ -104,9 +99,10 @@
                 "restful"
             ],
             "support": {
-                "source": "https://github.com/TheMY3/httpful/tree/v0.4.0"
+                "issues": "https://github.com/nategood/httpful/issues",
+                "source": "https://github.com/nategood/httpful/tree/v1.0.0"
             },
-            "time": "2022-11-14T06:58:54+00:00"
+            "time": "2024-05-01T11:33:16+00:00"
         }
     ],
     "packages-dev": [
